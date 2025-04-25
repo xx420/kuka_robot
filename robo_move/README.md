@@ -27,8 +27,20 @@
 1. When you upload the Python script, press **AUT mode**.
 2. Turn on the black keys with the controller.
 3. Follow the instructions when the heartbeat signal appears.
-4. Press the **green button** at the back until the options appear, then release the button.
-5. **Do not** press both the green and grey buttons together — it's in **T1 mode**, so automatic operation is easier.
+
+   Select
+
+        FRI send period: 10 ms
+
+        IP address: 172.31.1.148
+
+        FRI control mode: POSITION_CONTROL
+
+        FRI client command mode: POSITION
+
+
+5. Press the **green button** at the back until the options appear, then release the button.
+6. **Do not** press both the green and grey buttons together — it's in **T1 mode**, so automatic operation is easier.
 
 ---
 
