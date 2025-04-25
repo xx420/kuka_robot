@@ -1,13 +1,12 @@
 # Instructions
 
-- **The Raspberry Pi (RPI) receives data:**  
+- **The Raspberry Pi remote/server (RPI) receives data:**  
   **Login:** `ubuntu@ubuntu`  
   **Command:**  
   ```bash
   ros2 multicast receive
 
-
-- **The PC sends data:**  
+- **The PC client sends data:**  
 **Login:** `rosuser@rosuser`  
 **Command:**  
   ```bash
