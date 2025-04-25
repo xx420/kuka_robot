@@ -1,20 +1,36 @@
-nstructions:
-	•	The Raspberry Pi (RPI) receives data.
-Login: ubuntu@ubuntu
-Command: ros2 multicast receive
-	•	The PC sends data.
-Login: rosuser@rosuser
-Command: ros2 multicast send
+# Instructions
+
+- **The Raspberry Pi (RPI) receives data:**  
+  **Login:** `ubuntu@ubuntu`  
+  **Command:**  
+  ```bash
+  ros2 multicast receive
+
 
 ⸻
 
 ![My Image](../images/pic1.png)
 
-When you upload the Python script, press AUT mode.
-Then, turn on the black keys with the controller. Follow the instructions when the heartbeat signal appears.
 
-Press the green button at the back until the options appear, then release the button.
+---
 
-You don’t need to push both the green and grey buttons at the back because it’s in T1 mode, and automatic operation is easier.
+# ![My Image](../images/pic1.png)
 
-Finally, you can run the robot driver command:
+---
+
+# Procedure
+
+1. When you upload the Python script, press **AUT mode**.
+2. Turn on the black keys with the controller.
+3. Follow the instructions when the heartbeat signal appears.
+4. Press the **green button** at the back until the options appear, then release the button.
+5. **Do not** press both the green and grey buttons together — it's in **T1 mode**, so automatic operation is easier.
+
+---
+
+# Run the Robot Driver
+
+```ros2 launch lbr_bringup hardware.launch.py \
+    ctrl:=lbr_joint_position_command_controller \
+    model:=iiwa14 ```
+
