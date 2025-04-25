@@ -7,9 +7,14 @@
   ros2 multicast receive
 
 
+- **The PC sends data:**  
+**Login:** `rosuser@rosuser`  
+**Command:**  
+  ```bash
+  ros2 multicast send
 ⸻
 
-![My Image](../images/pic1.png)
+![My Image](/images/pic1.png)
 
 
 ---
@@ -17,6 +22,11 @@
 # ![My Image](../images/pic1.png)
 
 ---
+
+# Run the Robot Driver
+*Note: Run this in lbr_stack folder in ubuntu (ubuntu@ubuntu:~/lbr-stack$)*
+
+``` os2 launch lbr_bringup hardware.launch.py \ ctrl:=lbr_joint_position_command_controller \ model:=iiwa14 ```
 
 # Procedure
 
@@ -28,11 +38,8 @@
 
 ---
 
-# Run the Robot Driver
+# Run the `joint_sine_overlay` node
+*Note: Run this in ros_ws in pc so rosuser (rosuser@rosuser:~/ros2_ws$)*
 
-```
-os2 launch lbr_bringup hardware.launch.py \
-    ctrl:=lbr_joint_position_command_controller \
-    model:=iiwa14 
-```
+``` ros2 run lbr_demos_py joint_sine_overlay --ros-args -r __ns:=/lbr ```
 
