@@ -14,12 +14,7 @@
   ros2 multicast send
 ⸻
 
-![My Image](/images/pic1.png)
-
-
----
-
-# ![My Image](../images/pic1.png)
+# ![Screenshot of doc](../images/pic1.png)
 
 ---
 
