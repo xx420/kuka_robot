@@ -22,10 +22,11 @@ Proceed with steps 1 and 2 from MoveIt via RViz - Simulation but with ros2 launc
 
 ubuntu@ubuntu:~/lbr-stack$ 
 
-```ros2 launch lbr_bringup hardware.launch.py     model:=iiwa14```
+``ros2 launch lbr_bringup hardware.launch.py     model:=iiwa14``   
 
 
 rosuser@rosuser:~/ros2_ws$ 
 
-```ros2 launch lbr_bringup move_group.launch.py     mode:=mock     rviz:=true     model:=iiwa14```
-
+```bash
+ros2 launch lbr_bringup move_group.launch.py     mode:=mock     rviz:=true     model:=iiwa14
+```
