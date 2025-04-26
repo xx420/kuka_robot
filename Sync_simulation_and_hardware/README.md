@@ -1,10 +1,11 @@
 #MoveIt via RViz - Hardware 
 
-    Client side configurations:   `ubuntu@ubuntu` 
+    #Client side configurations:
 
-            Configure the client_command_mode to position in lbr_system_config.yaml
+            Configure the `client_command_mode to position in lbr_system_config.yaml
 
-Set the `update_rate to 100 in lbr_controllers.yaml
+Set the   ```bash
+update_rate to 100 in lbr_controllers.yaml
 
 Remote side configurations:
 
