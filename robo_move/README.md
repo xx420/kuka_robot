@@ -41,7 +41,7 @@
 
 
 5. Press the **green button** at the back until the options appear, then release the button.
-6. **Do not** press both the green and grey buttons together — it's in **T1 mode**, so automatic operation is easier.
+6. **Do not** press both the green and grey buttons together, it's in **T1 mode**, so automatic operation is easier.
 
 ---
 
