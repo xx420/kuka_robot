@@ -21,7 +21,7 @@
 ## Run the Robot Driver
 *Note: Run this in lbr_stack folder in ubuntu (ubuntu@ubuntu:~/lbr-stack$)*
 
-``` os2 launch lbr_bringup hardware.launch.py \ ctrl:=lbr_joint_position_command_controller \ model:=iiwa14 ```
+``` ros2 launch lbr_bringup hardware.launch.py \ ctrl:=lbr_joint_position_command_controller \ model:=iiwa14 ```
 
 ## Procedure
 
