@@ -22,3 +22,9 @@ This document describes how we connected the OptiTrack V120:Trio motion capture 
 2. Clone or download the NatNet SDK repository:
    ```bash
    git clone https://github.com/OptiTrack/NatNetSDK.git
+   ```
+3. Build the NatNet client example or use Python wrapper to receive data.
+
+4. Configure the client to connect to the Windows PC’s IP address (server IP).
+
+5. Run the NatNet client to receive real-time motion capture data streamed from Motive.
