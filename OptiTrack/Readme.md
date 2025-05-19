@@ -1,7 +1,5 @@
 # OptiTrack V120:Trio Network Setup with NatNet SDK (Windows + Ubuntu)
 
-Note* 
-
 This document describes how we connected the OptiTrack V120:Trio motion capture system over the same network on Windows and Ubuntu machines using the NatNet SDK.
 
 ## Overview
@@ -42,6 +40,23 @@ Notes
          ```
 
     3. The NatNet SDK supports multiple languages including C++, C#, and Python.
+
+
+## ⚠️🚨 HIGH PRIORITY NOTE: Synchronization Device Issue 🚨⚠️
+
+> **🛑 Issue:** *Synchronization Device Removal*  
+> System was reverting to default synchronization settings unexpectedly.
+> 
+> **✅ Root Cause:**  
+> The **OptiTrack device** uses a **USB 2.0** power cable, but the **HP Z4 workstation** front panel has **USB 3.0 ports**, causing incompatibility.
+> 
+> **🔧 Fix:**  
+> Plug the OptiTrack power cable into one of the **rear USB ports** instead of the front ones.  
+> This fixed the issue after trial and error.
+> 
+> **⚙️ Additional Recommendation:**  
+> Set the **Power Plan** to `High Performance` via the **Control Panel** to ensure consistent and stable device operation.
+
 
 # OptiTrack V120:Trio NatNet ROS2 Setup
 
