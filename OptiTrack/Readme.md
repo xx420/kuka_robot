@@ -43,6 +43,13 @@ Notes
 
 # OptiTrack V120:Trio NatNet ROS2 Setup
 
+## Network Configuration Table
+
+| Machine  | Role              | IP Address     | Subnet Mask    | Notes                        |
+|----------|-------------------|----------------|----------------|------------------------------|
+| Ubuntu   | ROS2 Client       | 172.31.1.149   | 255.255.0.0    | Runs `optitrack_wrapper_node` |
+| Windows  | NatNet Server     | 172.31.1.146   | 255.255.0.0    | Runs Motive, streams data    |
+
 ## ROS2 Node Configuration (`optitrack_wrapper_node`)
 
 Save this configuration in your ROS2 config YAML file (e.g., `config/optitrack_wrapper.yaml`):
