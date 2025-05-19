@@ -1,5 +1,7 @@
 # OptiTrack V120:Trio Network Setup with NatNet SDK (Windows + Ubuntu)
 
+Note* 
+
 This document describes how we connected the OptiTrack V120:Trio motion capture system over the same network on Windows and Ubuntu machines using the NatNet SDK.
 
 ## Overview
@@ -94,6 +96,8 @@ optitrack_wrapper_node:
 2. Run the launch file from the optritrack_ws directory with your NatNet server IP address:
 ```ros2 launch optitrack_wrapper_ros2 optitrack_wrapper.launch.py server_address:=172.31.1.146```
 
+3. To test if it is up and running
+```ros2 topic echo /optitrack_wrapper_node/frame_data```
 
 ## Network Setup Notes
 
