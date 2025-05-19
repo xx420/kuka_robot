@@ -97,9 +97,12 @@ optitrack_wrapper_node:
 - Set **Motive streaming to "Multicast"** to match the ROS2 node configuration.
 - **Verify connectivity** by pinging between the Ubuntu and Windows machines.
 
+## NatNet Diagram 
 
-References
+![NatNet Image](../images/pic1.png)
 
-    OptiTrack NatNet SDK
+## References
 
-    Motive Software
+• [Motive Software](https://optitrack.com/products/motive/)  
+• [optitrack_packages_ros2 GitHub Repository](https://github.com/lis-epfl/optitrack_packages_ros2)
+
