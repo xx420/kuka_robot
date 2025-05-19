@@ -99,7 +99,7 @@ optitrack_wrapper_node:
 
 ## NatNet Diagram 
 
-![NatNet Image](../images/pic1.png)
+![NatNet Image](../images/NatNet.png)
 
 ## References
 
