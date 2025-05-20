@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+
+<robot name="iiwa14" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- Include the lbr iiwa macro -->
+  <xacro:include filename="$(find lbr_description)/urdf/iiwa14/iiwa14_description.xacro" />
+
+  <xacro:arg name="robot_name" default="lbr" />
+  <xacro:arg name="mode" default="true" />
+  <xacro:arg name="system_config_path" default="$(find lbr_description)/ros2_control/lbr_system_config.yaml" />
+
+  <!-- World link -->
+  <link name="world" />
+
+  <!-- Define the wall -->
+  <link name="wall">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="1.0" />
+      <inertia ixx="0.1" ixy="0.0" ixz="0.0" iyy="0.1" iyz="0.0" izz="0.1" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 1.0" rpy="0 0 0" />
+      <geometry>
+        <box size="1.0 0.1 2.0" /> <!-- Width, Depth, Height -->
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 1.0" rpy="0 0 0" />
+      <geometry>
+        <box size="1.0 0.1 2.0" />
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Wall is attached to the ground -->
+  <joint name="joint_wall_ground" type="fixed">
+    <parent link="world" />
+    <child link="wall" />
+    <origin xyz="0 0 0" rpy="0 0 0" />
+  </joint>
+
+  <!-- Robot is attached to the center of the big face (front face) of the wall -->
+  <joint name="$(arg robot_name)_wall_joint" type="fixed">
+    <parent link="wall" />
+    <child link="$(arg robot_name)_link_0" />
+    <origin xyz="0 0.05 1.0" rpy="1.5708 0 0" /> <!-- Facing forward horizontally -->
+  </joint>
+
+  <!-- Include the iiwa robot model -->
+  <xacro:iiwa14
+    robot_name="$(arg robot_name)"
+    mode="$(arg mode)"
+    system_config_path="$(arg system_config_path)" />
+
+</robot>
