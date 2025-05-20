@@ -41,4 +41,4 @@ When launching using this command:
 
 Screenshot:
 
-![image](/Attachments/image1.png)
+![image](/images/image1.png)
