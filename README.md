@@ -1,7 +1,10 @@
-# kuka_mystudy
-Annotations for Running the robot
+# Annotations for Running the Robot
 
-## KUKA iiwa14 
+<br>
 
-Image of Robotic Arm:
+## KUKA iiwa14
+
+<br>
+
 ![image](https://github.com/user-attachments/assets/d2259f86-6b6a-4f96-8ddf-cb4819665f2b)
+
