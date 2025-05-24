@@ -6,7 +6,7 @@ This ROS 2 package enables a **KUKA iiwa** robot to track a marker in 3D space u
 🛠️ Setup
 ---------
 
-### Clone the required repositories into your workspace:
+## Clone the required repositories into your workspace:
 
     cd ~/test_ws/src
     # Assuming these are already cloned:
@@ -16,14 +16,14 @@ This ROS 2 package enables a **KUKA iiwa** robot to track a marker in 3D space u
     # - marker_pose_follow
     
 
-### Build your workspace:
+## Build your workspace:
 
     cd ~/test_ws
     colcon build
     source install/setup.bash
     
 
-### Install required dependencies:
+## Install required dependencies:
 
     sudo apt update
     sudo apt install \
