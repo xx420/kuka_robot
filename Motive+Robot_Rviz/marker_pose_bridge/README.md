@@ -9,7 +9,7 @@ This ROS 2 package listens to the `/rigid_bodies` topic (published by mocap4r2) 
 Directory Structure
 -------------------
 
-test\_ws/src/marker\_pose\_follow/  
+ros2_ws/src/marker\_pose\_follow/  
 ├── marker\_pose\_follow/  
 │ ├── \_\_init\_\_.py  
 │ └── marker\_pose\_publisher.py  
@@ -84,7 +84,7 @@ Build and Run
 
 ### Build
 
-    cd ~/test_ws
+    cd ~/ros2_ws
     colcon build --packages-select marker_pose_follow
     source install/setup.bash
 
