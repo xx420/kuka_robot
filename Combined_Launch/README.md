@@ -22,7 +22,7 @@ This command starts nodes responsible for motion capture marker visualization us
 ```
 ros2 launch combined_launch optitrack_bringup.launch.py
 ```
-    This will bring up nodes related to the OptiTrack system and publish marker transforms.
+This will bring up nodes related to the OptiTrack system and publish marker transforms.
 
 ### 2. Launch the KUKA iiwa14 Mock Setup with RViz
 
@@ -30,4 +30,4 @@ This command launches the iiwa14 robot mock setup including RViz with the MoveIt
 ```
 ros2 launch combined_launch robot_mock_setup.launch.py
 ```
-    This sets up a mock robot state publisher and RViz visualization for interacting with the iiwa14 robot.
+This sets up a mock robot state publisher and RViz visualization for interacting with the iiwa14 robot.
