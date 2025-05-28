@@ -14,7 +14,7 @@
   Kalakrishnan M, et al. 2011 IEEE International Conference on Robotics and Automation, pp. 4569-4574.  
   [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/5980280)
 
-- [PubMed: Automated ultrasound reconstruction system (2024)](https://pubmed.ncbi.nlm.nih.gov/38285583/)
+- [PubMed: A System for Reproducible 3D Ultrasound Measurements of Skeletal Muscles](https://pubmed.ncbi.nlm.nih.gov/38285583/)
 - [PubMed: Quantification of muscle volume using 3D ultrasound (2011)](https://pubmed.ncbi.nlm.nih.gov/22149853/)
 - [Article: Muscle ultrasound for volume measurement (2012)](https://www.sciencedirect.com/science/article/pii/S0730725X12001816)
 - [Research Features: Robots meet ultrasound](https://researchfeatures.com/robots-ultrasound/)
