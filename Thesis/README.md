@@ -15,9 +15,9 @@
   [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/5980280)
 
 - [PubMed: A System for Reproducible 3D Ultrasound Measurements of Skeletal Muscles](https://pubmed.ncbi.nlm.nih.gov/38285583/)
-- [PubMed: Quantification of muscle volume using 3D ultrasound (2011)](https://pubmed.ncbi.nlm.nih.gov/22149853/)
-- [Article: Muscle ultrasound for volume measurement (2012)](https://www.sciencedirect.com/science/article/pii/S0730725X12001816)
-- [Research Features: Robots meet ultrasound](https://researchfeatures.com/robots-ultrasound/)
+- [PubMed: Accurate calibration method for 3D freehand ultrasound probe using virtual plane](https://pubmed.ncbi.nlm.nih.gov/22149853/)
+- [Article: 3D Slicer as an image computing platform for the Quantitative Imaging Network](https://www.sciencedirect.com/science/article/pii/S0730725X12001816)
+- [Research Features: Robots take ultrasound to the fourth dimension](https://researchfeatures.com/robots-ultrasound/)
 - [Frontiers in Robotics and AI (2021): Robotic Ultrasound](https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2021.645756/full)
 - [ResearchGate: RobUSt – Autonomous Robotic Ultrasound System](https://www.researchgate.net/publication/351291902_RobUSt_-_An_Autonomous_Robotic_Ultrasound_System_for_Medical_Imaging)
 - [Medical Image Analysis: AI-enhanced ultrasound for diagnosis (2023)](https://www.sciencedirect.com/science/article/pii/S136184152300138X)
