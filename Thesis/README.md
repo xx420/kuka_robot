@@ -1,4 +1,4 @@
-# Thesis Resources - Link Index
+# Abdul's Thesis Resources - Link Index
 
 ## 📄 Published Papers
 
