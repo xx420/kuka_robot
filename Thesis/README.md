@@ -18,10 +18,10 @@
 - [PubMed: Accurate calibration method for 3D freehand ultrasound probe using virtual plane](https://pubmed.ncbi.nlm.nih.gov/22149853/)
 - [Article: 3D Slicer as an image computing platform for the Quantitative Imaging Network](https://www.sciencedirect.com/science/article/pii/S0730725X12001816)
 - [Research Features: Robots take ultrasound to the fourth dimension](https://researchfeatures.com/robots-ultrasound/)
-- [Frontiers in Robotics and AI (2021): Robotic Ultrasound](https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2021.645756/full)
+- [Frontiers in Robotics and AI (2021): Autonomous Robotic Point-of-Care Ultrasound Imaging for Monitoring of COVID-19–Induced Pulmonary Diseases](https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2021.645756/full)
 - [ResearchGate: RobUSt – Autonomous Robotic Ultrasound System](https://www.researchgate.net/publication/351291902_RobUSt_-_An_Autonomous_Robotic_Ultrasound_System_for_Medical_Imaging)
-- [Medical Image Analysis: AI-enhanced ultrasound for diagnosis (2023)](https://www.sciencedirect.com/science/article/pii/S136184152300138X)
-- [Nature Communications (2024): Real-time 3D ultrasound imaging](https://www.nature.com/articles/s41467-024-48421-y)
+- [Medical Image Analysis: Robotic ultrasound imaging: State-of-the-art and future perspectives](https://www.sciencedirect.com/science/article/pii/S136184152300138X)
+- [Nature Communications (2024): A fully autonomous robotic ultrasound system for thyroid scanning](https://www.nature.com/articles/s41467-024-48421-y)
 
 ## 🛠️ Tools & Integration Documentation
 
