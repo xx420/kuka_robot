@@ -54,12 +54,19 @@ This will start the `track_motive_pose` node, which subscribes to `/marker_pose`
 
 ### 3. (Optional) Launch Other Required Nodes
 
-If using OptiTrack or a robot mock for testing, you may also launch:
+You may also wish to launch the following, depending on your setup:
 
-```bash
-ros2 launch combined_launch optitrack_bringup.launch.py
-ros2 launch combined_launch robot_mock_setup.launch.py
-```
+- **Launch OptiTrack Bringup (for motion capture system integration):**
+
+  ```bash
+  ros2 launch combined_launch optitrack_bringup.launch.py
+  ```
+
+- **Launch Robot Mock Setup (for simulating/mock robot environment):**
+
+  ```bash
+  ros2 launch combined_launch robot_mock_setup.launch.py
+  ```
 
 ---
 
