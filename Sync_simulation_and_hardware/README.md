@@ -17,7 +17,7 @@ This guide walks you through configuring a static IP for your Raspberry Pi 5 ove
      - **Netmask:** `255.255.0.0`
    - Save and apply the settings.
 
-   ![Manual IP Configuration](_images/manual_ip.png)
+   ![Manual IP Configuration](../images/manual_ip.png)
 
 2. **Verify the Network Configuration:**
 
@@ -29,7 +29,7 @@ This guide walks you through configuring a static IP for your Raspberry Pi 5 ove
    - Look for your Ethernet interface (commonly `eth0`, `enpXsY`, etc.).
    - Confirm the assigned IP address is correct.
 
-   ![Checking IP](_images/checking_ip.png)
+   ![Checking IP](../images/checking_ip.png)
 
 ---
 
