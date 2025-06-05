@@ -20,7 +20,7 @@ Make sure you have:
 ## 1. Run the Mock Setup
 
 ```
-ros2 launch lbr_bringup gazebo.launch.py model:=iiwa14
+ros2 launch lbr_bringup mock.launch.py model:=iiwa14
 ```
 ## 2. Launch MoveIt with RViz
 
